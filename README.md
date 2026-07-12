@@ -1,29 +1,65 @@
 # 🛍️ E-Commerce Frontend
 
-A modern and responsive **E-Commerce Frontend** built using **React** and **Vite**. The application provides an intuitive shopping experience with product browsing, product details, shopping cart management, and a seamless checkout flow.
+A modern, responsive **E-Commerce Frontend** built with **React** and **Vite** that delivers a seamless online shopping experience. The application allows users to browse products, filter by category, search products, manage their shopping cart, and complete the checkout process with an intuitive and responsive user interface.
 
 ---
 
-## 📌 Features
+# 📸 Application Screenshots
+
+## 🏠 Home Page
+
+<p align="center">
+  <img src="docs/screenshots/home.png" alt="Home Page" width="900">
+</p>
+
+---
+
+## 🛍️ Products Page
+
+<p align="center">
+  <img src="docs/screenshots/products.png" alt="Products Page" width="900">
+</p>
+
+---
+
+## 🛒 Shopping Cart
+
+<p align="center">
+  <img src="docs/screenshots/cart.png" alt="Shopping Cart" width="900">
+</p>
+
+---
+
+## 💳 Checkout Page
+
+<p align="center">
+  <img src="docs/screenshots/checkout.png" alt="Checkout Page" width="900">
+</p>
+
+---
+
+# ✨ Features
 
 - 🏠 Responsive Home Page
-- 🛒 Product Listing
+- 🛍️ Product Listing
 - 🔍 Product Search
 - 🏷️ Category Filtering
 - 📄 Product Details Page
-- ➕ Add to Cart
-- ➖ Update Cart Quantity
-- 🗑️ Remove Items from Cart
+- 🛒 Shopping Cart
+- ➕ Add Products to Cart
+- ➖ Increase/Decrease Quantity
+- 🗑️ Remove Products from Cart
 - 💳 Checkout Page
 - 🔔 Toast Notifications
-- 💾 Cart Persistence using Local Storage
-- 📱 Fully Responsive Design
+- 💾 Local Storage Cart Persistence
+- 📱 Mobile Friendly UI
+- ⚡ Fast Performance with Vite
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
-### Frontend
+## Frontend
 
 - React 19
 - Vite 7
@@ -37,10 +73,17 @@ A modern and responsive **E-Commerce Frontend** built using **React** and **Vite
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
-ecommerce/
+E_Commerce_Website/
+│
+├── docs/
+│   └── screenshots/
+│       ├── home.png
+│       ├── products.png
+│       ├── cart.png
+│       └── checkout.png
 │
 ├── public/
 │
@@ -58,21 +101,31 @@ ecommerce/
 ├── package-lock.json
 ├── vite.config.js
 ├── eslint.config.js
+├── .gitignore
 └── README.md
 ```
 
 ---
 
-## 🚀 Getting Started
+# 🚀 Getting Started
 
-### Prerequisites
+## Prerequisites
 
-- Node.js (18 or above)
+Before running the project, make sure you have:
+
+- Node.js (v18 or above)
 - npm
+
+Verify installation:
+
+```bash
+node -v
+npm -v
+```
 
 ---
 
-## 📥 Installation
+# 📥 Installation
 
 Clone the repository
 
@@ -80,10 +133,10 @@ Clone the repository
 git clone https://github.com/SuprithKumarBL20/E_Commerce_Website.git
 ```
 
-Navigate to the project directory
+Navigate into the project
 
 ```bash
-cd ecommerce
+cd E_Commerce_Website
 ```
 
 Install dependencies
@@ -94,13 +147,15 @@ npm install
 
 ---
 
-## ▶️ Run the Development Server
+# ▶️ Run the Development Server
+
+Start the development server:
 
 ```bash
 npm run dev
 ```
 
-The application will be available at:
+Open your browser and visit:
 
 ```
 http://localhost:5173
@@ -108,7 +163,9 @@ http://localhost:5173
 
 ---
 
-## 📦 Build for Production
+# 📦 Build for Production
+
+Generate an optimized production build:
 
 ```bash
 npm run build
@@ -116,7 +173,9 @@ npm run build
 
 ---
 
-## 🧹 Lint the Project
+# 🧹 Lint the Project
+
+Run ESLint:
 
 ```bash
 npm run lint
@@ -124,7 +183,7 @@ npm run lint
 
 ---
 
-## ✨ Pages
+# 📄 Application Pages
 
 - 🏠 Home
 - 🛍️ Products
@@ -134,53 +193,25 @@ npm run lint
 
 ---
 
-## 📚 Key Functionalities
+# 📚 Key Functionalities
 
-- Browse products
-- Search products
+- Browse all available products
+- Search products instantly
 - Filter products by category
 - View detailed product information
-- Add products to cart
-- Update cart quantity
-- Remove products from cart
-- View order summary
-- Checkout flow
-- Toast notifications
-- Local Storage cart persistence
+- Add products to the shopping cart
+- Update product quantity
+- Remove products from the cart
+- Persistent shopping cart using Local Storage
+- Checkout page with order summary
+- Toast notifications for user actions
+- Responsive layout for desktop, tablet, and mobile devices
 
 ---
 
-## 📸 Screenshots
+# 📦 Project Dependencies
 
-> Add screenshots inside:
-
-```text
-docs/screenshots/
-```
-
-Example:
-
-```markdown
-## Home Page
-
-![Home](docs/screenshots/home.png)
-
-## Products
-
-![Products](docs/screenshots/products.png)
-
-## Cart
-
-![Cart](docs/screenshots/cart.png)
-
-## Checkout
-
-![Checkout](docs/screenshots/checkout.png)
-```
-
----
-
-## 📦 Dependencies
+### Frontend Libraries
 
 - React
 - React Router DOM
@@ -193,19 +224,21 @@ Example:
 
 ---
 
-## 📖 Future Improvements
+# 🔮 Future Enhancements
 
-- Backend Integration
-- User Authentication
-- Wishlist
-- Payment Gateway Integration
-- Order History
-- Product Reviews
-- Admin Dashboard
+- 🔐 User Authentication
+- ❤️ Wishlist
+- 💳 Online Payment Gateway Integration
+- 📦 Order History
+- ⭐ Product Reviews & Ratings
+- 🛠️ Admin Dashboard
+- 🌐 Backend API Integration
+- 📊 Inventory Management
+- 🔍 Advanced Product Filters
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Suprith Kumar B L**
 
@@ -213,6 +246,39 @@ Example:
 
 ---
 
-## ⭐ Support
+# 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository.
+2. Create a new feature branch.
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes.
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push the branch.
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request.
+
+---
+
+# 📜 License
+
+This project is intended for learning and portfolio purposes.
+
+---
+
+# ⭐ Support
 
 If you found this project useful, consider giving it a ⭐ on GitHub.
